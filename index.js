@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
 				document.getElementById('redirect').innerHTML = `<a href="${data.redirect}">${data.redirect}</a>`;
 
 				document.getElementById('code').innerHTML = `// server
-string prim_dns_api = "https://annapuddles.com/prim-dns/alias";
+string prim_dns_api = "https://sadipal.github.io/callelang/alias";
 string server_alias = "${data.name}";
 string server_alias_auth = "${data.auth}";
 
