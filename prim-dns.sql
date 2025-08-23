@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS alias;
+
+CREATE TABLE alias (
+	name VARCHAR(255) NOT NULL,
+	auth VARCHAR(63) NOT NULL,
+	url VARCHAR(1023),
+	object VARCHAR(63),
+	owner VARCHAR(63),
+	region VARCHAR(255),
+	expires DATETIME,
+	PRIMARY KEY (name)
+);
